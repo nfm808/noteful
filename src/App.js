@@ -37,6 +37,15 @@ class App extends Component {
                 list={folders}
               />} 
           />
+          <Route
+            path='/note/:id'
+            render={(props) =>
+              <NoteViewSidebar
+                noteId={props.match.params.id.slice(1)}
+                folders={folders}
+                notes={notes}
+              />}
+          />
         </Sidebar>
 
       </div>
