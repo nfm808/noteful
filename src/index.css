@@ -13,16 +13,16 @@ code {
     monospace;
 }
 
-html {
+html > * {
   box-sizing: border-box;
   font-size: 18px;
   line-height: 23px;
-
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .borderBox {
   border: 1px solid black;
-  background-color: whitesmoke;
 }
 
 .mediumFont {
