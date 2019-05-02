@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,33 +11,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-html > * {
-  box-sizing: border-box;
-  font-size: 18px;
-  line-height: 23px;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.borderBox {
-  border: 1px solid black;
-}
-
-.mediumFont {
-  font-size: 1.61111111em;
-  line-height: 1.5862069em;
-  margin-top: 0.79310345em;
-  margin-bottom: 0em;
-}
-
-.smallFont {
-  margin-top: 0em;
-  margin-bottom: 1.27777778em;
 }
